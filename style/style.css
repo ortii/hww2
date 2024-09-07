@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  background: white;
+
+}
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 79px;
+  padding-top: 50px;
+}
+.header__nav-logo {
+  max-width: 120px;
+  width: 100%;
+}
+.header__nav-logo img {
+  width: 100%;
+}
+.header__nav-list {
+  
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.header__nav-list-item a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #8c8a8a;
+}
+
+.hdimg {
+width: 100%;
+}
+.hdimg img {
+  width: 100%;
+}
+.banner {
+  text-align: center;
+width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+.maintext {
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+.table {
+  max-width: 730px;
+  height: 500px;
+  background: #f0f0f0;
+  margin: 30px 15px;
+  padding: 30px 95px 55px 40px;
+}
+.table2 {
+  width: 350px;
+  height: 500px;
+  background: #f0f0f0;
+  margin:  30px 15px;
+}
+.headline {
+  color: #4581b7;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.headline2 {
+  color: #4581b7;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 25px 0 0 40px;
+}
+.text1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #808080;
+  text-align: left;
+  padding-top: 25px;
+}
+.text2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 30px 30px 55px 40px;
+  color: #808080;
+}
+.maintext__link {
+  color: #808080;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.maintext__links {
+  color: #808080;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.footer__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding: 20px 40px;
+max-width: 1110px;
+background: #f0f0f0;
+}
+.contact {
+  text-align: right;
+  color: #808080;
+}
+.footer__text {
+font-size: 16px;
+font-weight: 400;
+color: #808080;
+}
+.footer__link {
+font-size: 25px;
+font-weight: 700;
+color: #808080;
+}
+.ftimg {
+  width: 100%;
+}
+.ftimg img {
+  width: 100%;
+}
